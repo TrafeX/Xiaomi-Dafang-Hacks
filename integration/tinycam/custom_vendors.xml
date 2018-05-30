@@ -10,6 +10,10 @@
             <request name="PtzMoveRelDown">/cgi-bin/action.cgi?cmd=motor_down</request>
             <request name="PtzMoveHome">/cgi-bin/action.cgi?action=motor_calibrate</request>
             <request custom="Reboot" confirmation="yes">/cgi-bin/action.cgi?action=reboot</request>
+            <request name="RelayOn">/cgi-bin/action.cgi?cmd=ir_cut_on</request>
+            <request name="RelayOff">/cgi-bin/action.cgi?cmd=ir_cut_off</request>
+            <request name="LedOn">/cgi-bin/action.cgi?cmd=ir_led_on</request>
+            <request name="LedOff">/cgi-bin/action.cgi?cmd=ir_led_off</request>
         </model>
     </vendor>
 </vendors>
